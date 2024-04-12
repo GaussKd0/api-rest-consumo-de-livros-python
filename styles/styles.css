@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background:#171823;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#filtro{
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: #242533;
+    border: none;
+    border-radius: 5px;
+    color: #bfc1c5;
+}
+.livro-item {
+    display: inline-flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px;
+}
+
+.livro-item img {
+    max-width: 600px;
+    max-height: 400px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.livro-nome {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    max-width: 200px; 
+}
+
+.livro-autor {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 200px;
+}
