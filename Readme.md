@@ -18,5 +18,9 @@
   Com o flask instalado sera possível inicializar a api localizada na pasta api, dentro da pasta você ira se deparar com 2 arquivos livros.py e api.py, e ambos são responsaveis tanto pela adição de livros como a api
 
 </p>
+<p>
+    Utilize. 
+    
+    <h3>python api.py</h3>
+</p>
 
-<h3>python api.py</h3>
